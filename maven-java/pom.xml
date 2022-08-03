@@ -5,7 +5,7 @@
 
   <groupId>io.gatling.qa</groupId>
   <artifactId>maven-java</artifactId>
-  <version>3.8.3</version>
+  <version>3.6.1</version>
 
   <properties>
     <!-- use the following if you're compiling with JDK 8-->

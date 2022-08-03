@@ -7,7 +7,6 @@ object Recorder extends App {
     .simulationsFolder(IDEPathHelper.gradleSourcesDirectory.toString)
     .resourcesFolder(IDEPathHelper.gradleResourcesDirectory.toString)
     .simulationPackage("computerdatabase")
-    .simulationFormatScala
 
   GatlingRecorder.fromMap(props.build, Some(IDEPathHelper.recorderConfigFile))
 }

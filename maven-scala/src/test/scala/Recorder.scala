@@ -7,7 +7,6 @@ object Recorder extends App {
     .simulationsFolder(IDEPathHelper.mavenSourcesDirectory.toString)
     .resourcesFolder(IDEPathHelper.mavenResourcesDirectory.toString)
     .simulationPackage("computerdatabase")
-    .simulationFormatScala
 
 	GatlingRecorder.fromMap(props.build, Some(IDEPathHelper.recorderConfigFile))
 }

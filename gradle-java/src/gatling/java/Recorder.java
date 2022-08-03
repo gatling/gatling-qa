@@ -10,7 +10,6 @@ public class Recorder {
       .simulationsFolder(IDEPathHelper.gradleSourcesDirectory.toString())
       .resourcesFolder(IDEPathHelper.gradleResourcesDirectory.toString())
       .simulationPackage("computerdatabase")
-      .simulationFormatJava();
 
     GatlingRecorder.fromMap(props.build(), Option.<Path> apply(IDEPathHelper.recorderConfigFile));
   }

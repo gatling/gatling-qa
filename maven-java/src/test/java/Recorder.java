@@ -10,7 +10,6 @@ public class Recorder {
       .simulationsFolder(IDEPathHelper.mavenSourcesDirectory.toString())
       .resourcesFolder(IDEPathHelper.mavenResourcesDirectory.toString())
       .simulationPackage("computerdatabase")
-      .simulationFormatJava();
 
     GatlingRecorder.fromMap(props.build(), Option.<Path> apply(IDEPathHelper.recorderConfigFile));
   }
